@@ -1,0 +1,44 @@
+/* NAVBAR  */
+.navbar-expand {
+  border-bottom: 2px solid rgb(32, 177, 110);
+  padding: .5em 0px;
+}
+
+.navbar-nav {
+  margin-left: 2em;
+}
+
+.container-home {
+  height: 100vh;
+  width: auto;
+  background-color: rgb(174, 174, 174);
+  margin: 0px -15px;
+}
+
+.container-idealogy {
+  height: 100vh;
+  width: auto;
+  background-color: white;
+  margin: 0px -15px;
+}
+
+.container-portfolio {
+  height: 100vh;
+  width: auto;
+  background-color: rgb(240, 239, 239);
+  margin: 0px -15px;
+}
+
+.container-about {
+  height: 100vh;
+  width: auto;
+  background-color: white;
+  margin: 0px -15px;
+}
+
+.container-contact {
+  height: 100vh;
+  width: auto;
+  background-color: #343a40;
+  margin: 0px -15px;
+}
