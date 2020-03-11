@@ -8,6 +8,12 @@
   margin-left: 2em;
 }
 
+li {
+  font-family: PT serif;
+}
+
+
+
 .container-home {
   height: 100vh;
   width: auto;
