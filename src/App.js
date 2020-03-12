@@ -20,19 +20,19 @@ function App() {
       <div className="navbar-expand fixed-top navbar-dark bg-dark">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="#">Home</a>
           </li>
           <li>
-            <a class="nav-link" href="#">Idealogy<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Idealogy</a>
           </li>
           <li>
-            <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Portfolio</a>
           </li>
           <li>
-            <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">About Me</a>
           </li>
           <li>
-            <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
