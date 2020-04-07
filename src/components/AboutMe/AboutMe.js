@@ -1,10 +1,11 @@
 import React from 'react';
+import './AboutMe.css';
 
 export default function AboutMe(props){
     return(
         <div class="container">
             <div class="container-sm">
-                <img src="/chris_pic.png" className="Pic-logo" alt="logo" />
+                <img src="/chris_pic.png" className="pic-logo" alt="logo" />
             </div>
             <div class="container-med"> 
                 <h1>A bit about me: </h1>

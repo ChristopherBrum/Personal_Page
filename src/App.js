@@ -1,8 +1,8 @@
 import React from 'react';
-import Intro from './components/Intro.js';
-import Idealogy from './components/Idealogy.js'
-import Portfolio from './components/Portfolio.js';
-import Contact from './components/Contact.js'
+import Idealogy from './components/Idealogy/Idealogy';
+import Portfolio from './components/Portfolio/Portfolio';
+import AboutMe from './components/AboutMe/AboutMe';
+import Contact from './components/Contact/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Card from 'react-bootstrap/Card';
 // import Button from 'react-bootstrap/Button';
@@ -49,17 +49,17 @@ function App() {
           </div>
         </div>
         <div className="container-idealogy">
-       
-       </div>
-       <div className="container-portfolio">
-         
-       </div>
-       <div className="container-about">
-         
-       </div>
-       <div className="container-contact">
-         
-       </div>
+          <Idealogy />
+        </div>
+        <div className="container-portfolio">
+          <Portfolio />
+        </div>
+        <div className="container-about">
+          <AboutMe />
+        </div>
+        <div className="container-contact">
+          <Contact />
+        </div>
       </div>
     </div>
   );

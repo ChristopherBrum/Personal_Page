@@ -27,30 +27,35 @@ li {
 .container-idealogy {
   height: 100vh;
   width: auto;
-  /* background-color: white;
   position: relative;
-  opacity: 10%;
-  z-index: 11; */
+  z-index: 1;
+  background: linear-gradient(transparent, rgba(255, 255, 255, 0.33));
 }
 
 .container-portfolio {
   height: 100vh;
   width: auto;
-  background-color: rgb(240, 239, 239);
   margin: 0px -15px;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.66));
 }
 
 .container-about {
   height: 100vh;
   width: auto;
-  background-color: white;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.9));
   margin: 0px -15px;
 }
 
 .container-contact {
   height: 100vh;
   width: auto;
-  background-color: #343a40;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(rgba(255, 255, 255, 0.90), white);
   margin: 0px -15px;
 }
 .stars-container {
