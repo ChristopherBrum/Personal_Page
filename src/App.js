@@ -60,6 +60,7 @@ function App() {
         <div className="container-contact">
           <Contact />
         </div>
+        <footer id="footer"></footer>
       </div>
     </div>
   );
