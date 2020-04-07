@@ -27,8 +27,10 @@ li {
 .container-idealogy {
   height: 100vh;
   width: auto;
-  background-color: white;
-  margin: 0px -15px;
+  /* background-color: white;
+  position: relative;
+  opacity: 10%;
+  z-index: 11; */
 }
 
 .container-portfolio {
@@ -142,7 +144,7 @@ left:0;
 right:0;
 bottom:0;
 width:100%;
-height:100%;
+height:500vh;
 display:block;
 }
 

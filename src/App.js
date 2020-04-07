@@ -4,13 +4,13 @@ import Idealogy from './components/Idealogy.js'
 import Portfolio from './components/Portfolio.js';
 import Contact from './components/Contact.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+// import Card from 'react-bootstrap/Card';
+// import Button from 'react-bootstrap/Button';
+// import Container from 'react-bootstrap/Container';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
+// import Navbar from 'react-bootstrap/Navbar';
+// import Nav from 'react-bootstrap/Nav';
 import './App.css';
 
 
@@ -18,29 +18,29 @@ function App() {
   return (
     <div className="container-fluid">
       <div className="navbar-expand fixed-top navbar-dark bg-dark">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <a className="nav-link active" href="#">Home<span className="sr-only">(current)</span></a>
           </li>
           <li>
-            <a class="nav-link" href="#">Idealogy</a>
+            <a className="nav-link" href="#">Idealogy<span className="sr-only">(current)</span></a>
           </li>
           <li>
-            <a class="nav-link" href="#">Portfolio</a>
+            <a className="nav-link" href="#">Portfolio<span className="sr-only">(current)</span></a>
           </li>
           <li>
-            <a class="nav-link" href="#">About Me</a>
+            <a className="nav-link" href="#">About Me<span className="sr-only">(current)</span></a>
           </li>
           <li>
-            <a class="nav-link" href="#">Contact</a>
+            <a className="nav-link" href="#">Contact<span className="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
-      <div class="container-home">
+      <div className="container-home">
         <div className="stars-container">
-          <div class="stars"></div>
-          <div class="twinkling"></div>
-          <div class="clouds"></div>
+          <div className="stars"></div>
+          <div className="twinkling"></div>
+          <div className="clouds"></div>
         </div>
         <div className="intro-title">
           <div>
@@ -48,18 +48,18 @@ function App() {
             <p className="title-phrase">I'm a Full Stack Developer</p>
           </div>
         </div>
-      </div>
-      <div class="container-idealogy">
+        <div className="container-idealogy">
        
-      </div>
-      <div class="container-portfolio">
-        
-      </div>
-      <div class="container-about">
-        
-      </div>
-      <div class="container-contact">
-        
+       </div>
+       <div className="container-portfolio">
+         
+       </div>
+       <div className="container-about">
+         
+       </div>
+       <div className="container-contact">
+         
+       </div>
       </div>
     </div>
   );
