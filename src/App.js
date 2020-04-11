@@ -23,16 +23,16 @@ function App() {
             <a className="nav-link active" href="#">Home<span className="sr-only">(current)</span></a>
           </li>
           <li>
-            <a className="nav-link" href="#">Idealogy<span className="sr-only">(current)</span></a>
+            <a className="nav-link" href="#idealogy">Idealogy<span className="sr-only">(current)</span></a>
           </li>
           <li>
-            <a className="nav-link" href="#">Portfolio<span className="sr-only">(current)</span></a>
+            <a className="nav-link" href="#portfolio">Portfolio<span className="sr-only">(current)</span></a>
           </li>
           <li>
-            <a className="nav-link" href="#">About Me<span className="sr-only">(current)</span></a>
+            <a className="nav-link" href="#about">About Me<span className="sr-only">(current)</span></a>
           </li>
           <li>
-            <a className="nav-link" href="#">Contact<span className="sr-only">(current)</span></a>
+            <a className="nav-link" href="#contact">Contact<span className="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
@@ -48,18 +48,26 @@ function App() {
             <p className="title-phrase">I'm a Full Stack Developer</p>
           </div>
         </div>
-        <div className="container-idealogy">
-          <Idealogy />
-        </div>
-        <div className="container-portfolio">
-          <Portfolio />
-        </div>
-        <div className="container-about">
-          <AboutMe />
-        </div>
-        <div className="container-contact">
-          <Contact />
-        </div>
+        <a id="idealogy">
+          <div id="container-idealogy">
+            <Idealogy />
+          </div>
+        </a>
+        <a id="portfolio">
+          <div id="container-portfolio">
+            <Portfolio />
+          </div>
+        </a>
+        <a id="about">
+          <div id="container-about">
+            <AboutMe />
+          </div>
+        </a>
+        <a id="contact">
+          <div id="container-contact">
+            <Contact />
+          </div>
+        </a>
         <footer id="footer"></footer>
       </div>
     </div>

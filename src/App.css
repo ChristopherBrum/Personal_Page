@@ -23,7 +23,7 @@ li {
   z-index: 6;
 }
 
-.container-idealogy {
+#container-idealogy {
   height: 100vh;
   width: auto;
   position: relative;
@@ -32,7 +32,7 @@ li {
   margin: 0px -15px;
 }
 
-.container-portfolio {
+#container-portfolio {
   height: 100vh;
   width: auto;
   position: relative;
@@ -41,7 +41,7 @@ li {
   margin: 0px -15px;
 }
 
-.container-about {
+#container-about {
   height: 100vh;
   width: auto;
   position: relative;
@@ -50,7 +50,7 @@ li {
   margin: 0px -15px;
 }
 
-.container-contact {
+#container-contact {
   height: 100vh;
   width: auto;
   position: relative;
