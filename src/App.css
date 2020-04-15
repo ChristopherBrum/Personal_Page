@@ -78,6 +78,7 @@ li {
 .the-moon {
   width: 20%; 
   min-width: 120px;
+  max-width: 200px;
   height: auto;
   border-radius: 50%;
   position: absolute;

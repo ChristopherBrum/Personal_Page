@@ -39,9 +39,7 @@ function App() {
             <p className="title-phrase">Hello, I'm <span className="title">Christopher Brum</span></p>
             <p className="title-phrase">I'm a Full Stack Developer</p>
           </div>
-          <div className="moon-div">
-            <img src="/the-moon.jpg" className="the-moon" alt="the moon" />
-          </div>
+            <a href="#portfolio" ><img src="/the-moon.jpg" className="the-moon" alt="the moon" /></a>
         </div>
         <a id="idealogy">
           <div id="container-idealogy">
