@@ -70,6 +70,18 @@ li {
   align-items: center;
   justify-content: center
 }
+
+.the-moon {
+  width: 200px; 
+  height: auto;
+  border-radius: 50%;
+  border:  white 
+}
+
+.moon-container {
+  
+}
+
 .title-phrase {
   color: white;
   font-family: PT serif;
@@ -79,6 +91,7 @@ li {
 .title {
   color: rgb(32, 177, 110);
 }
+
 #footer {
   height: 70px;
   width: auto;

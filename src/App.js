@@ -43,6 +43,9 @@ function App() {
           <div className="clouds"></div>
         </div>
         <div className="intro-title">
+          <div className="moon-container">
+            <img src="/the-moon.jpg" className="the-moon" alt="the moon" />
+          </div>
           <div>
             <p className="title-phrase">Hello, I'm <span className="title">Christopher Brum</span></p>
             <p className="title-phrase">I'm a Full Stack Developer</p>
