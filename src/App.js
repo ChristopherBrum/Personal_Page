@@ -4,15 +4,7 @@ import Portfolio from './components/Portfolio/Portfolio';
 import AboutMe from './components/AboutMe/AboutMe';
 import Contact from './components/Contact/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Card from 'react-bootstrap/Card';
-// import Button from 'react-bootstrap/Button';
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-// import Navbar from 'react-bootstrap/Navbar';
-// import Nav from 'react-bootstrap/Nav';
 import './App.css';
-
 
 function App() {
   return (
@@ -47,7 +39,9 @@ function App() {
             <p className="title-phrase">Hello, I'm <span className="title">Christopher Brum</span></p>
             <p className="title-phrase">I'm a Full Stack Developer</p>
           </div>
-          <img src="/the-moon.jpg" className="the-moon" alt="the moon" />
+          <div className="moon-div">
+            <img src="/the-moon.jpg" className="the-moon" alt="the moon" />
+          </div>
         </div>
         <a id="idealogy">
           <div id="container-idealogy">

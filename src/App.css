@@ -77,13 +77,19 @@ li {
 
 .the-moon {
   width: 20%; 
-  max-width: 200px;
   min-width: 120px;
   height: auto;
   border-radius: 50%;
   position: absolute;
   top: 20%;
   left: 70%;
+  animation: moon 4s infinite;
+}
+
+@keyframes moon {
+  0% {top: 20%;}
+  50% {top: 21%}
+  100% {top: 20%;}
 }
 
 .title-phrase {
