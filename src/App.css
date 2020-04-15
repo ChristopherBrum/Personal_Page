@@ -71,15 +71,19 @@ li {
   justify-content: center
 }
 
-.the-moon {
-  width: 200px; 
-  height: auto;
-  border-radius: 50%;
-  border:  white 
+.title-div {
+  margin-top: 10%;
 }
 
-.moon-container {
-  
+.the-moon {
+  width: 20%; 
+  max-width: 200px;
+  min-width: 120px;
+  height: auto;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 70%;
 }
 
 .title-phrase {
