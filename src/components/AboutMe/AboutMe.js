@@ -3,7 +3,7 @@ import './AboutMe.css';
 
 export default function AboutMe(props){
     return(
-        <div className="container">
+        <div className="-about-div">
             <div className="container-sm">
                 <img src="/chris_pic.png" className="pic-logo" alt="logo" />
             </div>
