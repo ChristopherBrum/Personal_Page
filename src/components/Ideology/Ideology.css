@@ -1,0 +1,56 @@
+.tri-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  shadow: 5px 5px black;
+}
+
+.tri-one {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 250px solid #FF8054;
+  margin: 0 -50px;
+  margin-top: 50px;
+}
+
+.tri-two {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 250px solid #FF9F7E;
+  margin: 0 -50px;
+}
+  
+.tri-three {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 250px solid #FE632E;
+  margin: 0 -50px;
+  margin-top: 50px;
+}
+
+.tri-four {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 250px solid #FF9F7E;
+  margin: 0 -50px;
+}
+
+.tri-five {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 250px solid #FF8054;
+  margin: 0 -50px;
+  margin-top: 50px;
+}

@@ -1,10 +1,10 @@
 import React from 'react';
-import './Idealogy.css';
+import './Ideology.css';
 
-export default function Idealogy(){
+export default function Ideology(){
   return(
-    <div className="tri-container
-    ">
+    <div className="tri-container">
+      <h2>Ideology</h2>
       <div className="tri-one" ></div>
       <div className="tri-two" ></div>
       <div className="tri-three" ></div>
