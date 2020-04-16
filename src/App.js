@@ -1,5 +1,5 @@
 import React from 'react';
-import Idealogy from './components/Idealogy/Idealogy';
+import Ideology from './components/Ideology/Ideology';
 import Portfolio from './components/Portfolio/Portfolio';
 import AboutMe from './components/AboutMe/AboutMe';
 import Contact from './components/Contact/Contact';
@@ -15,7 +15,7 @@ function App() {
             <a className="nav-link active" href="#">Home<span className="sr-only">(current)</span></a>
           </li>
           <li>
-            <a className="nav-link" href="#idealogy">Idealogy<span className="sr-only">(current)</span></a>
+            <a className="nav-link" href="#ideology">Ideology<span className="sr-only">(current)</span></a>
           </li>
           <li>
             <a className="nav-link" href="#portfolio">Portfolio<span className="sr-only">(current)</span></a>
@@ -41,9 +41,9 @@ function App() {
           </div>
             <a href="#portfolio" ><img src="/the-moon.jpg" className="the-moon" alt="the moon" /></a>
         </div>
-        <a id="idealogy">
-          <div id="container-idealogy">
-            <Idealogy />
+        <a id="ideology">
+          <div id="container-ideology">
+            <Ideology />
           </div>
         </a>
         <a id="portfolio">

@@ -1,0 +1,174 @@
+.tri-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-title {
+  font-family: PT serif;
+  color: white;
+  font-size: 6vh;
+  position: relative;
+  bottom: -1%;
+}
+
+
+.shapes-div {
+  display: flex;
+  position: relative;
+  bottom: 5%;
+}
+
+.shape-div1 {
+  width: fit-content;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 25px;
+}
+.tri-one {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 250px solid #FF9F7E;
+  margin: 0 -60px;
+  margin-top: 50px;
+}
+#trophy-icon {
+  color: white;
+  font-size: 125px;
+  position: absolute;
+  margin-top: -12.5px;
+}
+
+
+.shape-div2 {
+  width: fit-content;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 25px;
+}
+.tri-two {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 250px solid #FF8054;
+  margin: 0 -60px;
+}
+#fire-icon {
+  color: white;
+  font-size: 125px;
+  position: absolute;
+  margin-top: 30px;
+}
+
+
+.shape-div3 {
+  width: fit-content;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 25px;
+}
+.tri-three {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 250px solid #FE632E;
+  margin: 0 -60px;
+  margin-top: 50px;
+}
+#eye-icon {
+  color: white;
+  font-size: 125px;
+  position: absolute;
+  margin-top: -12.5px;
+}
+
+
+.shape-div4 {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 25px;
+}
+.tri-four {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 250px solid #FF8054;
+  margin: 0 -60px;
+}
+#thunder-icon {
+  color: white;
+  font-size: 125px;
+  position: absolute;
+  margin-top: 30px;
+}
+
+
+.shape-div5 {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 25px;
+}
+.tri-five {
+  width: 0;
+  height: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 250px solid #FF9F7E;
+  margin: 0 -60px;
+  margin-top: 50px;
+}
+#shield-icon {
+  color: white;
+  font-size: 125px;
+  position: absolute;
+  margin-top: -12.5px;
+}
+
+
+.ideology-text-div {
+  display: flex;
+  position: relative;
+  top: 5%;
+}
+.id-section {
+  width: 170px;
+  margin: 0 10px;
+}
+.upper-id-section {
+  width: 170px;
+  margin: -25px 10px 0;
+}
+.descrip-title {
+  font-family: PT serif;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.descrip {
+  font-family: PT serif;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
