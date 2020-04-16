@@ -26,11 +26,11 @@ export default function Ideology(){
         </div>
         <div className="shape-div4">
           <div className="tri-four" ></div>
-          <SafetyCertificateFilled id="shield-icon" />
+          <SafetyCertificateFilled id="thunder-icon" />
         </div>
         <div className="shape-div5">
           <div className="tri-five" ></div>
-          <ThunderboltFilled id="thunder-icon" />
+          <ThunderboltFilled id="shield-icon" />
         </div>
       </div>
         <div className="ideology-text-div">
@@ -40,19 +40,19 @@ export default function Ideology(){
           </section>
           <section className="upper-id-section">
             <h3 className="descrip-title">Simple & Elegant</h3>
-            <p className="descrip">Write efficient, testable and scalable code by adhering to best software development practices</p>
+            <p className="descrip">Keeping a layout clean, simple and easy to naviagte ensures the user can find what they want quickly and easy as well as traverse through the application without question.</p>
           </section>
           <section className="id-section">
             <h3 className="descrip-title">User First</h3>
-            <p className="descrip">Write efficient, testable and scalable code by adhering to best software development practices</p>
+            <p className="descrip">Applications are built to ensure the user and thier needs to has an easy, enjoyable and smooth experience.</p>
           </section>
           <section className="upper-id-section">
-            <h3 className="descrip-title">Secure</h3>
-            <p className="descrip">Write efficient, testable and scalable code by adhering to best software development practices</p>
+            <h3 className="descrip-title">Speed Efficiency</h3>
+            <p className="descrip">Special care is taken to ensure lightning fast speeds, from clean coding and efficient UI design to API performance and proper testing are all part of what makes an app run quickly.</p>
           </section>
           <section className="id-section">
-            <h3 className="descrip-title">Speed</h3>
-            <p className="descrip">Write efficient, testable and scalable code by adhering to best software development practices</p>
+            <h3 className="descrip-title">Safe & Secure</h3>
+            <p className="descrip">An often overlooked aspect of development until it's too late, app's are built with security in mind from moment one.</p>
           </section>
         </div>
     </div>
