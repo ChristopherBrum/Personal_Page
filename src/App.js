@@ -9,7 +9,24 @@ import './App.css';
 function App() {
   return (
     <div className="container-fluid">
-      <div className="navbar-expand fixed-top navbar-dark bg-dark">
+      <nav className="nav-con">
+        <li>
+          <a className="active nav-el" href="#">Home<span className="sr-only">(current)</span></a>
+        </li>
+        <li>
+          <a className="nav-el" href="#ideology">Ideology<span className="sr-only">(current)</span></a>
+        </li>
+        <li>
+          <a className="nav-el" href="#portfolio">Portfolio<span className="sr-only">(current)</span></a>
+        </li>
+        <li>
+          <a className="nav-el" href="#about">About Me<span className="sr-only">(current)</span></a>
+        </li>
+        <li>
+          <a className="nav-el" href="#contact">Contact<span className="sr-only">(current)</span></a>
+        </li>
+      </nav>
+      {/* <div className="navbar-expand fixed-top navbar-dark bg-dark">
         <ul className="navbar-nav">
           <li className="nav-item">
             <a className="nav-link active" href="#">Home<span className="sr-only">(current)</span></a>
@@ -27,7 +44,7 @@ function App() {
             <a className="nav-link" href="#contact">Contact<span className="sr-only">(current)</span></a>
           </li>
         </ul>
-      </div>
+      </div> */}
       <div className="container-home">
         <div className="stars-container">
           <div className="stars"></div>

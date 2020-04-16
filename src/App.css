@@ -1,5 +1,5 @@
 /* NAVBAR  */
-.navbar-expand {
+/* .navbar-expand {
   border-bottom: 2px solid rgb(32, 177, 110);
   padding: .5em 0px;
 }
@@ -10,19 +10,31 @@
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
   color: rgb(32, 177, 110);
+} */
+
+.nav-con {
+  display: flex;
+  position: fixed;
+  z-index: 5;
+  margin: 15px 0 0 10px;
+  border-radius: 5px;
+}
+.nav-el {
+  font-family: PT serif;
+  color: white;
+  background-color: black;
+  padding: 5px 5px;
+}
+li {
+  list-style-type: none;
 }
 
-li {
-  font-family: PT serif;
-}
 
 .container-home {
   height: 100vh;
   width: auto;
-  /* background-color: rgb(174, 174, 174); */
   z-index: 6;
 }
-
 #container-ideology {
   height: 100vh;
   width: auto;
@@ -31,7 +43,6 @@ li {
   background: linear-gradient(transparent, rgba(255, 255, 255, 0.33));
   margin: 0px -15px;
 }
-
 #container-portfolio {
   height: 100vh;
   width: auto;
@@ -40,7 +51,6 @@ li {
   background: linear-gradient(rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.66));
   margin: 0px -15px;
 }
-
 #container-about {
   height: 100vh;
   width: auto;
@@ -49,7 +59,6 @@ li {
   background: linear-gradient(rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.9));
   margin: 0px -15px;
 }
-
 #container-contact {
   height: 100vh;
   width: auto;
@@ -61,6 +70,7 @@ li {
 .stars-container {
   z-index: 10;
 }
+
 .intro-title {
   position: relative;
   z-index: 2;
@@ -70,11 +80,6 @@ li {
   align-items: center;
   justify-content: center
 }
-
-.title-div {
-  margin-top: 10%;
-}
-
 .the-moon {
   width: 20%; 
   min-width: 120px;
@@ -82,8 +87,8 @@ li {
   height: auto;
   border-radius: 50%;
   position: absolute;
-  top: 20%;
   left: 70%;
+  margin-top: -5%;
   animation: moon 4s infinite;
 }
 
