@@ -1,14 +1,63 @@
-.pic-logo {
-  height: 250px;
-  width: auto;
-  float: left;
-  margin-right: 30px;
-}
-
 .about-div {
   height: 100%;
   width: 100%;
+}
+
+
+.circle-container {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.circle1 {
+  height: 275px;
+  width: 275px;
+  background-color: #FFC77E;
+  border-radius: 50%;
+  position: absolute;
+  right: 133%;
+  z-index: 1;
+}
+.circle2 {
+  height: 350px;
+  width: 350px;
+  background-color: #FFB554;
+  border-radius: 50%;
+  position: absolute;
+  right: 70%;
+  z-index: 2;
+}
+.circle3 {
+  height: 500px;
+  width: 500px;
+  background-color: #FFA42E;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+}
+.circle4 {
+  height: 350px;
+  width: 350px;
+  background-color: #FFB554;
+  border-radius: 50%;
+  position: absolute;
+  left: 70%;
+  z-index: 2;
+}
+.circle5 {
+  height: 275px;
+  width: 275px;
+  background-color: #FFC77E;
+  border-radius: 50%;
+  position: absolute;
+  left: 133%;
+  z-index: 1;
+}
+.pic-logo {
+  height: 250px;
+  width: auto;
+  position: relative;
+  z-index: 3;
+  top: 100px;
 }
