@@ -1,0 +1,149 @@
+.hex-container {
+  display: flex;
+}
+
+
+#hex1 {
+  width: 200px;
+  height: 110px;
+  background: #2670A5;
+  position: relative;
+}
+#hex1:before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 50px solid #2670A5;
+}
+#hex1:after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 50px solid #2670A5;
+} 
+
+#hex2 {
+  width: 200px;
+  height: 110px;
+  background: #2670A5;
+  position: relative;
+}
+#hex2:before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 50px solid #2670A5;
+}
+#hex2:after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 50px solid #2670A5;
+} 
+
+#hex3 {
+  width: 200px;
+  height: 110px;
+  background: #2670A5;
+  position: relative;
+}
+#hex3:before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 50px solid #2670A5;
+}
+#hex3:after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 50px solid #2670A5;
+} 
+
+#hex4 {
+  width: 200px;
+  height: 110px;
+  background: #2670A5;
+  position: relative;
+}
+#hex4:before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 50px solid #2670A5;
+}
+#hex4:after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 50px solid #2670A5;
+} 
+
+#hex5 {
+  width: 200px;
+  height: 110px;
+  background: #2670A5;
+  position: relative;
+}
+#hex5:before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 50px solid #2670A5;
+}
+#hex5:after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-top: 50px solid #2670A5;
+} 
