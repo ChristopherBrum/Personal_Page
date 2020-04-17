@@ -4,6 +4,7 @@ import './Portfolio.css';
 export default function Portfolio(){
     return(
       <div className="hex-container">
+        <h2 className="portfolio-title">Portfolio</h2>
         <div id="hex1" class="hexagon-wrapper">
             <div id="color1" class="hexagon"></div>
         </div>
