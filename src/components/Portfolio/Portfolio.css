@@ -81,7 +81,30 @@
   left: 13px;
 }
 
-
+.upper-portfolio-text-div {
+  width: 170px;
+  position: relative;
+  bottom: 60px;
+  left: 20px;
+}
+.portfolio-text-div {
+  width: 170px;
+  position: relative;
+  bottom: 120px;
+  left: 20px;
+}
+.portfolio-descrip-title {
+  font-family: PT serif;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.portfolio-descrip {
+  font-family: PT serif;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
 
 .hexagon-wrapper {
   text-align: center;
