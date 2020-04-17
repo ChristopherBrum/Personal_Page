@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   position: absolute;
+
 }
 
 .portfolio-title {
@@ -12,7 +13,7 @@
   color: white;
   font-size: 6vh;
   position: relative;
-  bottom: 32%;
+  bottom: 41.5%;
   margin-left: 15px;
 }
 
@@ -21,27 +22,27 @@
   width: 210px;
   height: 210px;
   left: -2.5px;
-  top: 132px;
+  top: 75px;
 }
 #hex2 {
   position: absolute;
   width: 210px;
   height: 210px;
   left: 190px;
-  bottom: 132px;
+  bottom: 190px;
 }
 #hex3 {
   position: absolute;
   width: 210px;
   height: 210px;
   right: 367.5px;
-  top: 132px;
+  top: 75px;
 }
 #hex4 {
   position: absolute;
   width: 210px;
   height: 210px;
-  bottom: 132px;
+  bottom: 190px;
   right: 175px;
 }
 #hex5 {
@@ -49,7 +50,7 @@
   width: 210px;
   height: 210px;
   right: -17.5px;
-  top: 132px;
+  top: 75px;
 }
 
 #color1 {
@@ -62,6 +63,25 @@
   background-color: #2670A5;
 }
 
+.colabras-logo {
+  position: relative;
+  width: 150px;
+  bottom: 180px;
+  left: 13px;
+}
+.taco-logo {
+  position: relative;
+  width: 160px;
+  bottom: 155px;
+}
+.moto-logo {
+  position: relative;
+  width: 155px;
+  bottom: 180px;
+  left: 13px;
+}
+
+
 
 .hexagon-wrapper {
   text-align: center;
@@ -69,13 +89,11 @@
   position: relative;
   display: inline-block;
 }
-
 .hexagon {
   height: 100%;
   width: calc(100% * 0.57735);
   display: inline-block;
 }
-
 .hexagon:before {
   position: absolute;
   top: 0;
@@ -86,7 +104,6 @@
   content: '';
   transform: rotateZ(60deg);
 }
-
 .hexagon:after {
   position: absolute;
   top: 0;
@@ -97,164 +114,3 @@
   content: '';
   transform: rotateZ(-60deg);
 }
-
-
-
-/* #hex1 {
-  width: 250px;
-  height: 137.5px;
-  background: #2670A5;
-  margin: 0 10px;
-  position: relative;
-  left: 280px;
-  top: 105px;
-}
-#hex1:before {
-  content: "";
-  position: absolute;
-  top: -62.5px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 125px solid transparent;
-  border-right: 125px solid transparent;
-  border-bottom: 62.5px solid #2670A5;
-}
-#hex1:after {
-  content: "";
-  position: absolute;
-  bottom: -62.5px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 125px solid transparent;
-  border-right: 125px solid transparent;
-  border-top: 62.5px solid #2670A5;
-} 
-
-#hex2 {
-  width: 250px;
-  height: 137.5px;
-  background: #2670A5;
-  position: relative;
-  margin: 0 10px;
-  bottom: 105px;
-  left: 140px;
-}
-#hex2:before {
-  content: "";
-  position: absolute;
-  top: -62.5px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 125px solid transparent;
-  border-right: 125px solid transparent;
-  border-bottom: 62.5px solid #2670A5;
-}
-#hex2:after {
-  content: "";
-  position: absolute;
-  bottom: -62.5px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 125px solid transparent;
-  border-right: 125px solid transparent;
-  border-top: 62.5px solid #2670A5;
-} 
-
-#hex3 {
-  width: 250px;
-  height: 137.5px;
-  background: #2670A5;
-  position: relative;
-  margin: 0 10px;
-  top: 105px;
-}
-#hex3:before {
-  content: "";
-  position: absolute;
-  top: -62.5px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 125px solid transparent;
-  border-right: 125px solid transparent;
-  border-bottom: 62.5px solid #2670A5;
-}
-#hex3:after {
-  content: "";
-  position: absolute;
-  bottom: -62.5px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 125px solid transparent;
-  border-right: 125px solid transparent;
-  border-top: 62.5px solid #2670A5;
-} 
-
-#hex4 {
-  width: 250px;
-  height: 137.5px;
-  background: #2670A5;
-  position: relative;
-  margin: 0 10px;
-  bottom: 105px;
-  right: 140px;
-}
-#hex4:before {
-  content: "";
-  position: absolute;
-  top: -62.5px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 125px solid transparent;
-  border-right: 125px solid transparent;
-  border-bottom: 62.5px solid #2670A5;
-}
-#hex4:after {
-  content: "";
-  position: absolute;
-  bottom: -62.5px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 125px solid transparent;
-  border-right: 125px solid transparent;
-  border-top: 62.5px solid #2670A5;
-} 
-
-#hex5 {
-  width: 250px;
-  height: 137.5px;
-  background: #2670A5;
-  position: relative;
-  margin: 0 10px;
-  right: 280px;
-  top: 105px;
-}
-#hex5:before {
-  content: "";
-  position: absolute;
-  top: -62.5px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 125px solid transparent;
-  border-right: 125px solid transparent;
-  border-bottom: 62.5px solid #2670A5;
-}
-#hex5:after {
-  content: "";
-  position: absolute;
-  bottom: -62.5px;
-  left: 0;
-  width: 0;
-  height: 0;
-  border-left: 125px solid transparent;
-  border-right: 125px solid transparent;
-  border-top: 62.5px solid #2670A5;
-}  */
