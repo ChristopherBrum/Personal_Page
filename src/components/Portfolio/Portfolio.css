@@ -1,0 +1,139 @@
+.hex-container {
+  height: 625px;
+  width: 1000px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+
+}
+
+.portfolio-title {
+  font-family: PT serif;
+  color: white;
+  font-size: 6vh;
+  position: relative;
+  bottom: 41.5%;
+  margin-left: 15px;
+}
+
+#hex1 {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  left: -2.5px;
+  top: 75px;
+}
+#hex2 {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  left: 190px;
+  bottom: 190px;
+}
+#hex3 {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  right: 367.5px;
+  top: 75px;
+}
+#hex4 {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  bottom: 190px;
+  right: 175px;
+}
+#hex5 {
+  position: absolute;
+  width: 210px;
+  height: 210px;
+  right: -17.5px;
+  top: 75px;
+}
+
+#color1 {
+  background-color: #6BA4CC;
+}
+#color2 {
+  background-color: #4386B5;
+}
+#color3 {
+  background-color: #2670A5;
+}
+
+.colabras-logo {
+  position: relative;
+  width: 150px;
+  bottom: 180px;
+  left: 13px;
+}
+.taco-logo {
+  position: relative;
+  width: 160px;
+  bottom: 155px;
+}
+.moto-logo {
+  position: relative;
+  width: 155px;
+  bottom: 180px;
+  left: 13px;
+}
+
+.upper-portfolio-text-div {
+  width: 170px;
+  position: relative;
+  bottom: 60px;
+  left: 20px;
+}
+.portfolio-text-div {
+  width: 170px;
+  position: relative;
+  bottom: 120px;
+  left: 20px;
+}
+.portfolio-descrip-title {
+  font-family: PT serif;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.portfolio-descrip {
+  font-family: PT serif;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+.hexagon-wrapper {
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+}
+.hexagon {
+  height: 100%;
+  width: calc(100% * 0.57735);
+  display: inline-block;
+}
+.hexagon:before {
+  position: absolute;
+  top: 0;
+  right: calc((100% / 2) - ((100% * 0.57735) / 2));
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  transform: rotateZ(60deg);
+}
+.hexagon:after {
+  position: absolute;
+  top: 0;
+  right: calc((100% / 2) - ((100% * 0.57735) / 2));
+  background-color: inherit;
+  height: inherit;
+  width: inherit;
+  content: '';
+  transform: rotateZ(-60deg);
+}

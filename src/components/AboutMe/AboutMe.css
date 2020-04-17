@@ -12,7 +12,7 @@
 }
 .circle1 {
   height: 275px;
-  width: 275px;
+  width: 165px;
   background-color: #FFC77E;
   border-radius: 50%;
   position: absolute;
@@ -21,7 +21,7 @@
 }
 .circle2 {
   height: 350px;
-  width: 350px;
+  width: 210px;
   background-color: #FFB554;
   border-radius: 50%;
   position: absolute;
@@ -30,7 +30,7 @@
 }
 .circle3 {
   height: 500px;
-  width: 500px;
+  width: 300px;
   background-color: #FFA42E;
   border-radius: 50%;
   position: absolute;
@@ -38,7 +38,7 @@
 }
 .circle4 {
   height: 350px;
-  width: 350px;
+  width: 210px;
   background-color: #FFB554;
   border-radius: 50%;
   position: absolute;
@@ -47,7 +47,7 @@
 }
 .circle5 {
   height: 275px;
-  width: 275px;
+  width: 165px;
   background-color: #FFC77E;
   border-radius: 50%;
   position: absolute;
