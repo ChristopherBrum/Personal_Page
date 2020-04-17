@@ -22,7 +22,7 @@
 .nav-el {
   font-family: PT serif;
   color: white;
-  background-color: black;
+  background-color: transparent;
   padding: 5px 5px;
 }
 li {
@@ -40,7 +40,7 @@ li {
   width: auto;
   position: relative;
   z-index: 1;
-  background: linear-gradient(transparent, rgba(255, 255, 255, 0.33));
+  background: linear-gradient(transparent, rgba(255, 255, 255, 0.25));
   margin: 0px -15px;
 }
 #container-portfolio {
@@ -48,7 +48,7 @@ li {
   width: auto;
   position: relative;
   z-index: 1;
-  background: linear-gradient(rgba(255, 255, 255, 0.33), rgba(255, 255, 255, 0.66));
+  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25));
   margin: 0px -15px;
 }
 #container-about {
@@ -56,15 +56,18 @@ li {
   width: auto;
   position: relative;
   z-index: 1;
-  background: linear-gradient(rgba(255, 255, 255, 0.66), rgba(255, 255, 255, 0.9));
+  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25));
   margin: 0px -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #container-contact {
   height: 100vh;
   width: auto;
   position: relative;
   z-index: 1;
-  background: linear-gradient(rgba(255, 255, 255, 0.90), white);
+  background-color: rgba(255, 255, 255, 0.25);
   margin: 0px -15px;
 }
 .stars-container {
