@@ -6,7 +6,7 @@ export default function AboutMe(props){
         <div className="-about-div">
             <h2 className="about-title" >A Bit About Me</h2>
             <div className="circle-container">
-                <img src="/chris_pic.png" className="pic-logo" alt="logo" />
+                <img src="/chrisHeadshotRound.png" className="pic-logo" alt="logo" />
                 <div className="circle1"></div>
                 <div className="circle2"></div>
                 <div className="circle2-top"></div>
