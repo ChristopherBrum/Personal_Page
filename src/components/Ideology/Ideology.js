@@ -10,7 +10,7 @@ from '@ant-design/icons';
 export default function Ideology(){
   return(
     <div className="tri-container">
-      <h2 className="section-title">Dev Ideology</h2>
+      <h2 className="section-title">My Dev Ideology</h2>
       <div className="shapes-div">
         <div className="shape-div1">
           <div className="tri-one" ></div>
