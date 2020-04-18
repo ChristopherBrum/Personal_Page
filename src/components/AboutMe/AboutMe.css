@@ -9,7 +9,7 @@
   font-size: 6vh;
   position: absolute;
   bottom: 84.5%;
-  left: 44%;
+  left: 40.5%;
 }
 
 
@@ -27,6 +27,7 @@
   position: absolute;
   right: 175%;
   z-index: 1;
+  bottom: -5px;
 }
 .circle2 {
   height: 250px;
@@ -120,6 +121,7 @@
   position: absolute;
   left: 175%;
   z-index: 1;
+  bottom: -5px;
 }
 .pic-logo {
   height: 200px;

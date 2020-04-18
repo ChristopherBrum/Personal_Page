@@ -4,7 +4,7 @@ import './AboutMe.css';
 export default function AboutMe(props){
     return(
         <div className="-about-div">
-            <h2 className="about-title" >About Me</h2>
+            <h2 className="about-title" >A Bit About Me</h2>
             <div className="circle-container">
                 <img src="/chris_pic.png" className="pic-logo" alt="logo" />
                 <div className="circle1"></div>
