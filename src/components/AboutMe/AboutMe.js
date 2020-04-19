@@ -3,22 +3,29 @@ import './AboutMe.css';
 
 export default function AboutMe(props){
     return(
-        <div className="-about-div">
-            <h2 className="about-title" >A Bit About Me</h2>
+        <div className="about-div">
             <div className="circle-container">
-                <img src="/chrisHeadshotRound.png" className="pic-logo" alt="logo" />
+            <h2 className="about-title" >A Bit About Me</h2>
+                <div className="pic-div">
+                    <img src='/ChrisHeadshotRound.png' alt='Chris Headshot' className="pic-logo" />
+                </div>
                 <div className="circle1"></div>
                 <div className="circle2"></div>
-                <div className="circle2-top"></div>
-                <div className="circle2-bottom"></div>
                 <div className="circle3"></div>
-                <div className="circle3-top"></div>
-                <div className="circle3-bottom"></div>
                 <div className="circle4"></div>
-                <div className="circle4-top"></div>
-                <div className="circle4-bottom"></div>
                 <div className="circle5"></div>
+                <div className="ring-container">
+                    <div className="ring1"></div>
+                    <div className="ring2"></div>
+                    <div className="ring3"></div>
+                    <div className="ring4"></div>
+\                </div>
+            </div>
+            <div className="about-text-div">
+                {/* <p className="about-text">I’ve been hooked on coding and web development ever since the first time I got “Hello World” to appear on my browser. I love puzzles and problem solving. I also love the beauty of simplicity. To me, web development is the perfect blend of solving puzzles and organizing the pieces of that puzzle into something simple, intuitive and easily-usable. It’s a never-ending learning experience that is both challenging and rewarding.</p>
+                <p className="about-text-2">Christopher Brum is from Oakland California</p> */}
             </div>
         </div>
+
     )   
 }
