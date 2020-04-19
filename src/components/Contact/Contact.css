@@ -1,0 +1,66 @@
+.contact-div {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 4fr 145px;
+  grid-template-columns: 1fr repeat(3, 1fr) 1fr 1fr 1fr;
+  grid-template-areas: 
+    ". . . title . . ."
+    ". contact contact contact social additional ."
+    "footer footer footer footer footer footer footer";
+  column-gap: 10px;;
+}
+
+.contact-title {
+  grid-area: title;
+  align-self: flex-end;
+  font-family: PT serif;
+  color: white;
+  font-size: 6vh;
+}
+
+
+.contact-section {
+  grid-area: contact;
+  background-color: #20B16F;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.message-title {
+  font-family: PT serif;
+  color: white;
+}
+
+.contact-social {
+  grid-area: social;
+  background-color: #3FBF85;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.contact-additional {
+  grid-area: additional;
+  background-color: #68D3A3;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.contact-footer {
+  grid-area: footer;
+  background-color: transparent;
+  border-top: solid 3px #20B16F;
+  display: grid;
+  justify-content: center;
+}
+
+.to-top { 
+  grid-area: footer;
+  margin-bottom: 25px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.bi.bi-file-arrow-up {
+  height: 40px;
+  width: auto;
+  color: #20B16F;
+  margin-bottom: 40px;
+}
