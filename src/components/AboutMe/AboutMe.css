@@ -14,25 +14,25 @@
 .circle-container {
   height: 100%;
   width: 100%;
-  position: relative;
+  /* position: relative; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .circle1 {
-  height: 200px;
-  width: 200px;
-  background-color: #FFC77E;
+  height: 230px;
+  width: 230px;
+  background-color: #FFB554;
   border-radius: 50%;
   position: absolute;
-  right: 100px;
+  margin-left: -375px;
   z-index: 1;
   margin-top: 50px;
 }
 .circle2 {
-  height: 250px;
-  width: 250px;
-  background-color: #FFB554;
+  height: 300px;
+  width: 300px;
+  background-color: #FFA42E;
   border-radius: 50%;
   position: absolute;
   margin-left: 175px;
@@ -40,31 +40,31 @@
   margin-top: 50px;
 }
 .circle3 {
-  height: 310px;
-  width: 310px;
-  background-color: #FFA42E;
+  height: 340px;
+  width: 340px;
+  background-color: #E48304;
   border-radius: 50%;
   position: absolute;
   z-index: 3;
   margin-top: 50px;
 }
 .circle4 {
-  height: 250px;
-  width: 250px;
-  background-color: #FFB554;
+  height: 300px;
+  width: 300px;
+  background-color: #FFA42E;
   border-radius: 50%;
   position: absolute;
-  left: 250px;
+  margin-left: -175px;
   z-index: 2;
   margin-top: 50px;
 }
 .circle5 {
-  height: 200px;
-  width: 200px;
-  background-color: #FFC77E;
+  height: 230px;
+  width: 230px;
+  background-color: #FFB554;
   border-radius: 50%;
   position: absolute;
-  left: 100px;
+  margin-left: 375px;
   z-index: 1;
   margin-top: 50px;
 }
@@ -80,8 +80,8 @@
   margin-top: 50px;
 }
 .ring1 {
-  height: 330px;
-  width: 330px;
+  height: 360px;
+  width: 360px;
   position: absolute;
   background-color: transparent;
   border: solid 3px #E48304;
@@ -116,7 +116,7 @@
 
 .pic-div {
   height: 100%;
-  width: 100%;
+  width: 850px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -126,27 +126,27 @@
   height: 275px;
   width: auto;
   position: absolute;
-  z-index: 5;
+  z-index: 4;
   margin-top: 50px;
+  display: block;
 }
 
-.about-text-div {
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
 .about-text {
   font-family: PT serif;
   color: white;
-  font-size: 15px;
+  font-size: 16px;
   position: absolute;
   z-index: 5;
-  bottom: 100px;
+  text-align: center;
+  margin-top: 60px;
+  display: none;
 }
 .about-text-2 {
   font-family: PT serif;
   color: white;
-  font-size: 15px;
+  font-size: 16px;
   position: absolute;
   z-index: 5;
+  margin-top: -25px;
+  display: none;
 }
