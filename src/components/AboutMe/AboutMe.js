@@ -8,7 +8,7 @@ export default function AboutMe(props){
             <h2 className="about-title" >A Bit About Me</h2>
                 <div className="pic-div">
                     <p className="about-text">I’ve been hooked on coding and web development ever since the first time I got “Hello World” to appear on my browser. I love puzzles and problem solving. I also love the beauty of simplicity. To me, web development is the perfect blend of solving puzzles and organizing the pieces of that puzzle into something simple, intuitive and easily-usable. It’s a never-ending learning experience that is both challenging and rewarding.</p>
-                    <img src="ChrisHeadshotRound.png" alt='Chris Headshot' className="pic-logo" />
+                    <img src="public/ChrisHeadshotRound.png" alt='Chris Headshot' className="pic-logo" />
                     <p className="about-text-2">Christopher Brum is from Oakland California</p>
                 </div>
                 <div className="circle1"></div>
