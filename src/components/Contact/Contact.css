@@ -7,7 +7,7 @@
   grid-template-areas: 
     ". title ."
     ". main ."
-    "footer footer footer";
+    ". footer up";
 }
 
 .contact-title {
@@ -111,5 +111,29 @@
   overflow: scroll;
 }
 
+#social-icons {
+  grid-area: footer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 48px;
+  margin: 0 10%;
+}
 
+#social-icons a {
+  color: white;
+}
 
+#social-icons a:hover {
+  color: #20B16F;
+}
+
+#up-icon {
+  grid-area: up;
+  font-size: 36px;
+}
+
+#up-icon a {
+  color: #FFA42E;
+}
