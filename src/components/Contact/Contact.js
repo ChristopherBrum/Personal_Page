@@ -28,8 +28,13 @@ export default function Contact(){
           <div className="col-a"></div>
           <div className="col-x"></div>
         </div>
-        <div className="">
-          <h3>Send me a messeage</h3>
+        <div className="message-div">
+          <div id="user-message-div">
+            <label for="user-email">Email:</label>
+            <input id="user-email" type="email" placeholder="Enter you email..." required></input>
+            <label for="message-input" placeholder="Enter you message..." required>Send me a message:</label>
+            <textarea id="user-message" type="text" placeholder="Enter you message..."></textarea>
+          </div>
         </div>
       </div>
     )
