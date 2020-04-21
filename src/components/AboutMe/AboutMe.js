@@ -17,10 +17,11 @@ export default function AboutMe(props){
                 <div className="circle4"></div>
                 <div className="circle5"></div>
                 <div className="ring-container">
-                    <div className="ring1"></div>
-                    <div className="ring2"></div>
-                    <div className="ring3"></div>
-                    <div className="ring4"></div>
+                    <div id="ring1"></div>
+                    <div id="ring2"></div>
+                    <div id="ring3"></div>
+                    <div id="ring4"></div>
+                    <div id="ring5"></div>
                 </div>
             </div>
         </div>
