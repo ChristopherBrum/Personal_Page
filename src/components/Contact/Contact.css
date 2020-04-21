@@ -32,7 +32,7 @@
   border-radius: 3px;
   margin: 170px 5px;
   animation-name: col-x;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 .col-a {
@@ -40,44 +40,87 @@
   border-radius: 3px;
   margin: 150px 5px;
   animation-name: col-a;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
+  animation-delay: .2s;
 }
 .col-b {
   background-color: #3FBF85;
   border-radius: 3px;
   margin: 130px 5px;
   animation-name: col-b;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
+  animation-delay: .4s;
 }
 .col-c {
   background-color: #20B16F;
   border-radius: 3px;
   margin: 105px 5px;
   animation-name: col-c;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
+  animation-delay: .6s;
 }
 .col-d {
   background-color: rgb(3, 158, 87);
   border-radius: 3px;
   margin: 60px 5px;
   animation-name: col-d;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
+  animation-delay: .8s;
 }
 .col-e {
   background-color: #007A43;
   border-radius: 3px;
   margin: 10px 5px;
   animation-name: col-e;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+/* Animations  */
+
+@keyframes col-x {
+  0% {margin: 170px 5px;}
+  50% {margin: 160px 5px;}
+  100% {margin: 170px 5px;}
+}
+
+@keyframes col-a {
+  0% {  margin: 150px 5px;}
+  50% {margin: 140px 5px;}
+  100% {margin: 150px 5px;}
+}
+
+@keyframes col-b {
+  0% {  margin: 130px 5px;}
+  50% {margin: 120px 5px;}
+  100% {margin: 130px 5px;}
+}
+
+@keyframes col-c {
+  0% {  margin: 105px 5px;}
+  50% {margin: 95px 5px;}
+  100% {margin: 105px 5px;}
+}
+
+@keyframes col-d {
+  0% {  margin: 60px 5px;}
+  50% {margin: 50px 5px;}
+  100% {margin: 60px 5px;}
+}
+
+@keyframes col-e {
+  0% {  margin: 10px 5px;}
+  50% {margin: 0px 5px;}
+  100% {margin: 10px 5px;}
 }
 
 .message-div {
-  /* position: absolute; */
+  position: relative;
   grid-area: main;
   height: fit-content;
   width: 60%;
