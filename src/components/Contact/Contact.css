@@ -81,7 +81,7 @@
   animation-delay: 1s;
 }
 
-/* Animations  */
+/* Bar Animations  */
 
 @keyframes col-x {
   0% {margin: 170px 5px;}
@@ -118,6 +118,9 @@
   50% {margin: 0px 5px;}
   100% {margin: 10px 5px;}
 }
+
+/* ------------- */
+
 
 .message-div {
   position: relative;
