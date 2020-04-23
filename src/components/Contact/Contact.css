@@ -183,3 +183,7 @@
 #up-icon a {
   color: #FFA42E;
 }
+
+#up-icon a:hover {
+  color: white;
+}
