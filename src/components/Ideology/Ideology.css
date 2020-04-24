@@ -12,13 +12,12 @@
   font-size: 6vh;
   position: relative;
   bottom: 2%;
-  animation-name: ideologyTitle;
-  animation-duration: 1s;
-  animation-iteration-count: 10s;
+  animation: ideologyTitle ease 4s;
 }
 @keyframes ideologyTitle {
-  0% {color: transparent;}
-  100% {color: white;}
+  0% {opacity:0;}
+  50% {opacity:0;}
+  100% {opacity:1;}
 }
 
 .shapes-div {
@@ -222,10 +221,12 @@
   color: white;
   font-size: 18px;
   text-align: center;
+  animation: ideologyTitle ease 4s;
 }
 .descrip {
   font-family: PT serif;
   color: white;
   font-size: 15px;
   text-align: center;
+  animation: ideologyTitle ease 4s;
 }
