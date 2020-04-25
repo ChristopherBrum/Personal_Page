@@ -7,6 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
+
+
   return (
     <div className="container-fluid">
       <nav className="nav-con">
@@ -14,7 +16,7 @@ function App() {
           <a className="active nav-el" href="#">Home<span className="sr-only">(current)</span></a>
         </li>
         <li>
-          <a className="nav-el" href="#ideology">Ideology<span className="sr-only">(current)</span></a>
+          <a className="nav-el" id="ideology-botton" href="#ideology" >Ideology<span className="sr-only">(current)</span></a>
         </li>
         <li>
           <a className="nav-el" href="#portfolio">Portfolio<span className="sr-only">(current)</span></a>
